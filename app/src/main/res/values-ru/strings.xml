@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Секундомер</string>
+
+    <string name="Start">СТАРТ</string>
+    <string name="Stop">СТОП</string>
+    <string name="Lap">КРУГ</string>
+    <string name="lap">Круг</string>
+    <string name="LapTime">Время круга</string>
+    <string name="Reset">СБРОС</string>
+    <string name="SaveThis">СОХРАНИТЬ</string>
+    <string name="ViewSaved">ПОКАЗАТЬ СОХРАНЁННЫЕ</string>
+    <string name="DeleteAllCountings">УДАЛИТЬ ВСЕ ОТСЧЕТЫ</string>
+    <string name="SaveDB">СОХРАНИТЬ</string>
+    <string name="SavedCountings">Сохраненные отсчеты</string>
+    <string name="IdCounting">Номер отсчета</string>
+    <string name="LapsInCounting">Кругов в отсчёте</string>
+    <string name="CountingName">Имя отсчета</string>
+    <string name="EnterNameDB">Введите имя отсчета</string>
+    <string name="NumberOfSavedCountings">количество сохранённых отсчетов -</string>
+    <string name="XX">ХХ</string>
+
+</resources>

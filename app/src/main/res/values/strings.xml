@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">StopwatchApp</string>
+
+    <string name="Start">START</string>
+    <string name="Stop">STOP</string>
+    <string name="Lap">LAP</string>
+    <string name="Reset">RESET</string>
+    <string name="SaveThis">SAVE THIS</string>
+    <string name="ViewSaved">VIEW SAVED</string>
+    <string name="SaveDB">SAVE</string>
+    <string name="EnterNameDB">Enter the name of the counting</string>
+
+    <string name="St">St</string>
+    <string name="op">op</string>
+    <string name="watch">watch</string>
+
+</resources>

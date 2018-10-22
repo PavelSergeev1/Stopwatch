@@ -1,0 +1,33 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'StopwatchApp'
+            keyPassword 'KAiFYGqz'
+            storeFile file('C:/Key_store/my_key_store.jks')
+            storePassword 'KAiFYGqz'
+        }
+    }
+    compileSdkVersion 23
+    defaultConfig {
+        applicationId "app.stopwatch.pavel"
+        minSdkVersion 21
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    testImplementation 'junit:junit:4.12'
+    api 'com.android.support:appcompat-v7:23.4.0'
+}
