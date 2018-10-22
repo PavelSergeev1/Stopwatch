@@ -1,8 +1,5 @@
 <resources>
-
-    <!-- Base application theme. -->
     <style name="AppTheme">
-        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
@@ -11,5 +8,4 @@
     <style name="SplashTheme">
         <item name="android:windowBackground">@drawable/drawable</item>
     </style>
-
 </resources>

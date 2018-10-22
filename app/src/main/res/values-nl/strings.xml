@@ -1,28 +1,34 @@
 <resources>
     <string name="app_name">Stopwatch</string>
 
-    <string name="Yes">Yes</string>
-    <string name="Cancel">Cancel</string>
+    <string name="Yes">Ja</string>
+    <string name="Cancel">Annuleer</string>
 
-    <string name="Start">START</string>
-    <string name="Stop">STOP</string>
-    <string name="Lap">LAP</string>
-    <string name="lap">Lap</string>
-    <string name="LapTime">Lap time</string>
+    <string name="Start">BEGIN</string>
+    <string name="Stop">HOU OP</string>
+    <string name="Lap">RONDE</string>
+    <string name="lap">Ronde</string>
+    <string name="LapTime">Rondetijd</string>
     <string name="Reset">RESET</string>
-    <string name="SaveThis">SAVE THIS</string>
-    <string name="ViewSaved">VIEW SAVED</string>
-    <string name="DeleteAllCountings">DELETE ALL COUNTINGS</string>
-    <string name="SaveDB">SAVE</string>
-    <string name="SavedCountings">Saved countings</string>
+    <string name="SaveThis">RED DIT</string>
+    <string name="ViewSaved">BEKIJK BESPAREN</string>
+    <string name="DeleteAllCountings">VERWIJDER ALLE TELLINGEN</string>
+    <string name="SaveDB">OPSLAAN</string>
+    <string name="SavedCountings">Opgeslagen telling</string>
     <string name="IdCounting">№</string>
-    <string name="LapsInCounting">Laps In Counting</string>
-    <string name="CountingName">Counting Name</string>
-    <string name="EnterNameDB">Enter the name of the counting</string>
-    <string name="NumberOfSavedCountings">number of saved countings - "&#32;"</string>
+    <string name="LapsInCounting">Laps In Telling</string>
+    <string name="CountingName">Naam tellen</string>
+    <string name="EnterNameDB">Voer de naam van het tellen in</string>
+    <string name="NumberOfSavedCountings">aantal opgeslagen telwaarden - "&#32;"</string>
     <string name="XX">XX</string>
 
-    <string name="SaveThisCounting">Save this counting?</string>
-    <string name="DoYouWantToDeleteAllCountings">Do you want to delete all countings?</string>
+    <string name="Counting">Telling "&#32;"</string>
+    <string name="deleted">"&#32;" verwijderde</string>
+    <string name="SuccessfullySaved">"&#32;" succesvol opgeslagen</string>
+
+    <string name="DeleteCounting">Tellen verwijderen № "&#32;"</string>
+
+    <string name="SaveThisCounting">Bespaar dit tellen?</string>
+    <string name="DoYouWantToDeleteAllCountings">Wilt u alle tellingen verwijderen?</string>
 
 </resources>

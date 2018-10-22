@@ -1,28 +1,34 @@
 <resources>
-    <string name="app_name">Stopwatch</string>
+    <string name="app_name">Cronógrafo</string>
 
-    <string name="Yes">Yes</string>
-    <string name="Cancel">Cancel</string>
+    <string name="Yes">Sí</string>
+    <string name="Cancel">Cancelar</string>
 
-    <string name="Start">START</string>
-    <string name="Stop">STOP</string>
-    <string name="Lap">LAP</string>
-    <string name="lap">Lap</string>
-    <string name="LapTime">Lap time</string>
-    <string name="Reset">RESET</string>
-    <string name="SaveThis">SAVE THIS</string>
-    <string name="ViewSaved">VIEW SAVED</string>
-    <string name="DeleteAllCountings">DELETE ALL COUNTINGS</string>
-    <string name="SaveDB">SAVE</string>
-    <string name="SavedCountings">Saved countings</string>
+    <string name="Start">COMIENZO</string>
+    <string name="Stop">DETENER</string>
+    <string name="Lap">REGAZO</string>
+    <string name="lap">Regazo</string>
+    <string name="LapTime">Tiempo de vuelta</string>
+    <string name="Reset">REINICIAR</string>
+    <string name="SaveThis">GUARDA ESTO</string>
+    <string name="ViewSaved">VER SALVADO</string>
+    <string name="DeleteAllCountings">ELIMINAR TODOS LOS CONTADORES</string>
+    <string name="SaveDB">SALVAR</string>
+    <string name="SavedCountings">Cuentas guardadas</string>
     <string name="IdCounting">№</string>
-    <string name="LapsInCounting">Laps In Counting</string>
-    <string name="CountingName">Counting Name</string>
-    <string name="EnterNameDB">Enter the name of the counting</string>
-    <string name="NumberOfSavedCountings">number of saved countings - "&#32;"</string>
+    <string name="LapsInCounting">Vueltas en el conteo</string>
+    <string name="CountingName">Nombre de cuenta</string>
+    <string name="EnterNameDB">Ingrese el nombre del conteo</string>
+    <string name="NumberOfSavedCountings">número de conteos guardados - "&#32;"</string>
     <string name="XX">XX</string>
 
-    <string name="SaveThisCounting">Save this counting?</string>
-    <string name="DoYouWantToDeleteAllCountings">Do you want to delete all countings?</string>
+    <string name="Counting">Contando "&#32;"</string>
+    <string name="deleted">"&#32;" eliminado</string>
+    <string name="SuccessfullySaved">"&#32;" guardado con éxito</string>
+
+    <string name="DeleteCounting">Eliminar contando № "&#32;"</string>
+
+    <string name="SaveThisCounting">¿Guardar esta cuenta?</string>
+    <string name="DoYouWantToDeleteAllCountings">¿Quieres borrar todos los conteos?</string>
 
 </resources>

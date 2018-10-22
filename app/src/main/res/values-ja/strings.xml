@@ -1,28 +1,34 @@
 <resources>
-    <string name="app_name">Stopwatch</string>
+    <string name="app_name">ストップウォッチ</string>
 
-    <string name="Yes">Yes</string>
-    <string name="Cancel">Cancel</string>
+    <string name="Yes">はい</string>
+    <string name="Cancel">キャンセル</string>
 
-    <string name="Start">START</string>
-    <string name="Stop">STOP</string>
-    <string name="Lap">LAP</string>
-    <string name="lap">Lap</string>
-    <string name="LapTime">Lap time</string>
-    <string name="Reset">RESET</string>
-    <string name="SaveThis">SAVE THIS</string>
-    <string name="ViewSaved">VIEW SAVED</string>
-    <string name="DeleteAllCountings">DELETE ALL COUNTINGS</string>
-    <string name="SaveDB">SAVE</string>
-    <string name="SavedCountings">Saved countings</string>
+    <string name="Start">開始</string>
+    <string name="Stop">やめる</string>
+    <string name="Lap">ラップ</string>
+    <string name="lap">ラップ</string>
+    <string name="LapTime">ラップタイム</string>
+    <string name="Reset">リセット</string>
+    <string name="SaveThis">これを保存する</string>
+    <string name="ViewSaved">保存したものを見る</string>
+    <string name="DeleteAllCountings">すべてのカウンターを削除する</string>
+    <string name="SaveDB">保存する</string>
+    <string name="SavedCountings">保存されたカウント</string>
     <string name="IdCounting">№</string>
-    <string name="LapsInCounting">Laps In Counting</string>
-    <string name="CountingName">Counting Name</string>
-    <string name="EnterNameDB">Enter the name of the counting</string>
-    <string name="NumberOfSavedCountings">number of saved countings - "&#32;"</string>
+    <string name="LapsInCounting">カウントの周回数</string>
+    <string name="CountingName">カウント名</string>
+    <string name="EnterNameDB">カウントの名前を入力してください</string>
+    <string name="NumberOfSavedCountings">保存されたカウントの数 - "&#32;"</string>
     <string name="XX">XX</string>
 
-    <string name="SaveThisCounting">Save this counting?</string>
-    <string name="DoYouWantToDeleteAllCountings">Do you want to delete all countings?</string>
+    <string name="Counting">カウント "&#32;"</string>
+    <string name="deleted">"&#32;" 削除された</string>
+    <string name="SuccessfullySaved">"&#32;" 正常に保存された</string>
+
+    <string name="DeleteCounting">カウントを削除しますか № "&#32;"</string>
+
+    <string name="SaveThisCounting">このカウントを保存しますか？</string>
+    <string name="DoYouWantToDeleteAllCountings">すべてのカウントを削除しますか？</string>
 
 </resources>

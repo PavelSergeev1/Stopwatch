@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/border"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-</LinearLayout>
+    android:layout_height="50dp"
+    android:layout_margin="3dp">
+    <TextView
+        android:id="@+id/tvIdCounting"
+        android:layout_width="50sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="tvIdCounting"
+        android:textSize="20sp"
+        android:layout_gravity="start|center"/>
+    <TextView
+        android:id="@+id/tvCountingName"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:gravity="top|bottom"
+        android:text="tvCountingName"
+        android:textAlignment="center"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/tvLapsInCounting"
+        android:layout_width="50sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|end"
+        android:text="tvLapsInCounting"
+        android:gravity="end|center"
+        android:textSize="20sp"
+        android:layout_marginEnd="35dp"/>
+</FrameLayout>

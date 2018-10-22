@@ -1,28 +1,34 @@
 <resources>
-    <string name="app_name">Stopwatch</string>
+    <string name="app_name">스톱워치</string>
 
-    <string name="Yes">Yes</string>
-    <string name="Cancel">Cancel</string>
+    <string name="Yes">예</string>
+    <string name="Cancel">취소</string>
 
-    <string name="Start">START</string>
-    <string name="Stop">STOP</string>
-    <string name="Lap">LAP</string>
-    <string name="lap">Lap</string>
-    <string name="LapTime">Lap time</string>
-    <string name="Reset">RESET</string>
-    <string name="SaveThis">SAVE THIS</string>
-    <string name="ViewSaved">VIEW SAVED</string>
-    <string name="DeleteAllCountings">DELETE ALL COUNTINGS</string>
-    <string name="SaveDB">SAVE</string>
-    <string name="SavedCountings">Saved countings</string>
+    <string name="Start">스타트</string>
+    <string name="Stop">중지</string>
+    <string name="Lap">무릎</string>
+    <string name="lap">무릎</string>
+    <string name="LapTime">랩타임</string>
+    <string name="Reset">다시 놓기</string>
+    <string name="SaveThis">이것을 저장하십시오</string>
+    <string name="ViewSaved">저장 됨보기</string>
+    <string name="DeleteAllCountings">모든 카운터 삭제</string>
+    <string name="SaveDB">구하다</string>
+    <string name="SavedCountings">저장된 계산</string>
     <string name="IdCounting">№</string>
-    <string name="LapsInCounting">Laps In Counting</string>
-    <string name="CountingName">Counting Name</string>
-    <string name="EnterNameDB">Enter the name of the counting</string>
-    <string name="NumberOfSavedCountings">number of saved countings - "&#32;"</string>
+    <string name="LapsInCounting">카운팅에서 랩</string>
+    <string name="CountingName">이름 계산 중</string>
+    <string name="EnterNameDB">계산 이름을 입력하십시오.</string>
+    <string name="NumberOfSavedCountings">저장된 계산 횟수 - "&#32;"</string>
     <string name="XX">XX</string>
 
-    <string name="SaveThisCounting">Save this counting?</string>
-    <string name="DoYouWantToDeleteAllCountings">Do you want to delete all countings?</string>
+    <string name="Counting">계산 중 "&#32;"</string>
+    <string name="deleted">"&#32;" 삭제 된</string>
+    <string name="SuccessfullySaved">"&#32;" 성공적으로 저장되었습니다</string>
+
+    <string name="DeleteCounting">계산 삭제 하시겠습니까 № "&#32;"</string>
+
+    <string name="SaveThisCounting">이 계산을 저장 하시겠습니까?</string>
+    <string name="DoYouWantToDeleteAllCountings">모든 집계를 삭제 하시겠습니까?</string>
 
 </resources>

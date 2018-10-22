@@ -8,6 +8,9 @@
     <color name="colorGreen">#66BB6A</color>
     <color name="colorBrown">#A1887F</color>
 
-    <color name="Gray1">#424242</color>
-    <color name="Gray2">#6d6d6d</color>
+    <color name="Gray0">#8e8e8e</color>
+    <color name="Gray1">#6d6d6d</color>
+    <color name="Gray2">#616161</color>
+    <color name="Gray3">#424242</color>
+    <color name="Gray4">#212121</color>
 </resources>

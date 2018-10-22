@@ -1,4 +1,4 @@
-package app.stopwatch.pavel;
+package app.pavel;
 
 import org.junit.Test;
 

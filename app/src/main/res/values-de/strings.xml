@@ -1,28 +1,34 @@
 <resources>
-    <string name="app_name">Stopwatch</string>
+    <string name="app_name">Stoppuhr</string>
 
-    <string name="Yes">Yes</string>
-    <string name="Cancel">Cancel</string>
+    <string name="Yes">Ja</string>
+    <string name="Cancel">Stornieren</string>
 
     <string name="Start">START</string>
-    <string name="Stop">STOP</string>
-    <string name="Lap">LAP</string>
-    <string name="lap">Lap</string>
-    <string name="LapTime">Lap time</string>
-    <string name="Reset">RESET</string>
-    <string name="SaveThis">SAVE THIS</string>
-    <string name="ViewSaved">VIEW SAVED</string>
-    <string name="DeleteAllCountings">DELETE ALL COUNTINGS</string>
-    <string name="SaveDB">SAVE</string>
-    <string name="SavedCountings">Saved countings</string>
+    <string name="Stop">HALT</string>
+    <string name="Lap">RUNDE</string>
+    <string name="lap">Runde</string>
+    <string name="LapTime">Rundenzeit</string>
+    <string name="Reset">Zurücksetzen</string>
+    <string name="SaveThis">SPEICHERN</string>
+    <string name="ViewSaved">ANSICHT GESPEICHERT</string>
+    <string name="DeleteAllCountings">LÖSCHEN SIE ALLE ZÄHLUNGEN</string>
+    <string name="SaveDB">SPAREN</string>
+    <string name="SavedCountings">Gespeicherte Zählungen</string>
     <string name="IdCounting">№</string>
-    <string name="LapsInCounting">Laps In Counting</string>
-    <string name="CountingName">Counting Name</string>
-    <string name="EnterNameDB">Enter the name of the counting</string>
-    <string name="NumberOfSavedCountings">number of saved countings - "&#32;"</string>
+    <string name="LapsInCounting">Runden beim Zählen</string>
+    <string name="CountingName">Zählender Name</string>
+    <string name="EnterNameDB">Geben Sie den Namen der Zählung ein</string>
+    <string name="NumberOfSavedCountings">Anzahl der gespeicherten Zählungen - "&#32;"</string>
     <string name="XX">XX</string>
 
-    <string name="SaveThisCounting">Save this counting?</string>
-    <string name="DoYouWantToDeleteAllCountings">Do you want to delete all countings?</string>
+    <string name="Counting">Zählen "&#32;"</string>
+    <string name="deleted">"&#32;" gelöscht</string>
+    <string name="SuccessfullySaved">"&#32;" erfolgreich gespeichert</string>
+
+    <string name="DeleteCounting">Löschen zählen № "&#32;"</string>
+
+    <string name="SaveThisCounting">Speichern Sie diese Zählung?</string>
+    <string name="DoYouWantToDeleteAllCountings">Möchten Sie alle Zählungen löschen?</string>
 
 </resources>

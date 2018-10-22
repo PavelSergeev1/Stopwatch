@@ -2,13 +2,14 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
               android:layout_width="match_parent"
-              android:layout_height="match_parent">
+              android:layout_height="match_parent"
+              android:background="@color/Gray3">
 
     <LinearLayout
         android:id="@+id/linLayout1"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
+        android:layout_height="240dp"
+        android:layout_marginTop="80dp"
         android:orientation="vertical">
         <RadioGroup
             android:layout_weight="1"
@@ -21,7 +22,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/EnterNameDB"
-                android:textSize="18sp"/>
+                android:textSize="24sp"/>
         </RadioGroup>
         <RadioGroup
             android:layout_weight="1"
@@ -30,7 +31,7 @@
             android:gravity="center">
             <EditText
                 android:id="@+id/etSavedDB"
-                android:layout_width="150dp"
+                android:layout_width="180dp"
                 android:layout_height="60dp"
                 android:gravity="center_vertical"
                 android:inputType="text"
@@ -43,61 +44,33 @@
             android:gravity="center">
             <Button
                 android:id="@+id/buttonSaveDB"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="140dp"
+                android:layout_height="40dp"
+                android:background="@color/Gray2"
                 android:text="@string/SaveDB"
+                android:textSize="18sp"
                 android:onClick="onClickSaveDB"/>
         </RadioGroup>
     </LinearLayout>
     <LinearLayout
         android:id="@+id/linLayout2"
-        android:layout_weight="1.2"
+        android:layout_marginTop="30sp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-        <RadioGroup
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:orientation="horizontal"
-            android:gravity="center">
-            <Button
-                android:text="VIEW DATABASE"
-                android:onClick="onClickViewDatabase"
+        android:layout_height="50dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tvNumberOsSavedText"
+                android:text="@string/NumberOfSavedCountings"
+                android:layout_marginStart="15dp"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/tvNumberOfSavedCountings"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"/>
-            <Button
-                android:text="DELETE DAATBASE"
-                android:onClick="onClickDeleteDatabase"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"/>
-        </RadioGroup>
-        <TextView
-            android:text="Database composition:"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center_horizontal"
-            android:layout_weight="1"
-            android:textSize="30sp"/>
-    </LinearLayout>
-    <LinearLayout
-        android:id="@+id/linLayout33"
-        android:layout_weight="1"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-        <ScrollView
-            android:id="@+id/scrollSaveDB"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-            <LinearLayout
-                android:id="@+id/linLayout333"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-            </LinearLayout>
-        </ScrollView>
+                android:text="@string/XX"
+                android:textSize="18sp"/>
     </LinearLayout>
 </LinearLayout>

@@ -1,28 +1,34 @@
 <resources>
-    <string name="app_name">Stopwatch</string>
+    <string name="app_name">Секундомір</string>
 
-    <string name="Yes">Yes</string>
-    <string name="Cancel">Cancel</string>
+    <string name="Yes">Так</string>
+    <string name="Cancel">Скасувати</string>
 
-    <string name="Start">START</string>
-    <string name="Stop">STOP</string>
-    <string name="Lap">LAP</string>
-    <string name="lap">Lap</string>
-    <string name="LapTime">Lap time</string>
-    <string name="Reset">RESET</string>
-    <string name="SaveThis">SAVE THIS</string>
-    <string name="ViewSaved">VIEW SAVED</string>
-    <string name="DeleteAllCountings">DELETE ALL COUNTINGS</string>
-    <string name="SaveDB">SAVE</string>
-    <string name="SavedCountings">Saved countings</string>
+    <string name="Start">СТАРТ</string>
+    <string name="Stop">СТОП</string>
+    <string name="Lap">КРУГ</string>
+    <string name="lap">Круг</string>
+    <string name="LapTime">Час круга</string>
+    <string name="Reset">СКИДАННЯ</string>
+    <string name="SaveThis">ЗБЕРЕГТИ</string>
+    <string name="ViewSaved">Показати збережені</string>
+    <string name="DeleteAllCountings">ВИДАЛИТИ ВСЕ ВІДЛІКУ</string>
+    <string name="SaveDB">ЗБЕРЕГТИ</string>
+    <string name="SavedCountings">Збережені відліки</string>
     <string name="IdCounting">№</string>
-    <string name="LapsInCounting">Laps In Counting</string>
-    <string name="CountingName">Counting Name</string>
-    <string name="EnterNameDB">Enter the name of the counting</string>
-    <string name="NumberOfSavedCountings">number of saved countings - "&#32;"</string>
-    <string name="XX">XX</string>
+    <string name="LapsInCounting">Кіл у відліку</string>
+    <string name="CountingName">імя відліку</string>
+    <string name="EnterNameDB">Введіть імя відліку</string>
+    <string name="NumberOfSavedCountings">кількість збережених відліків -"&#32;"</string>
+    <string name="XX">ХХ</string>
 
-    <string name="SaveThisCounting">Save this counting?</string>
-    <string name="DoYouWantToDeleteAllCountings">Do you want to delete all countings?</string>
+    <string name="Counting">Відлік "&#32;"</string>
+    <string name="deleted">"&#32;" видалено</string>
+    <string name="SuccessfullySaved">"&#32;" успішно збережено</string>
+
+    <string name="DeleteCounting">Видалити підрахунок № "&#32;"</string>
+
+    <string name="SaveThisCounting">Зберегти цей відлік?</string>
+    <string name="DoYouWantToDeleteAllCountings">Видалити всі відліки?</string>
 
 </resources>

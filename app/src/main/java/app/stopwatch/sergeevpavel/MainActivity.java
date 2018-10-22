@@ -1,4 +1,4 @@
-package app.stopwatch.pavel;
+package app.stopwatch.sergeevpavel;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;

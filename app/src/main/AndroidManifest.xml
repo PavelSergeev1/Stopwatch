@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="app.stopwatch">
+          android:versionCode="2"
+          android:versionName="2"
+          package="app.stopwatch.sergeevpavel">
 
     <application
         android:allowBackup="true"
@@ -13,9 +15,6 @@
 
         </activity>
         <activity android:name=".SaveActivity">
-
-        </activity>
-        <activity android:name=".ViewSavedActivity">
 
         </activity>
         <activity

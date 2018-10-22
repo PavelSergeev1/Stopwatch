@@ -1,4 +1,4 @@
-package app.stopwatch.pavel;
+package app.stopwatch.sergeevpavel;
 
 import android.content.Intent;
 import android.os.Bundle;

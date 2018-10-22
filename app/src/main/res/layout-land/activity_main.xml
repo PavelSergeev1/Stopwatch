@@ -5,16 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/Gray1"
+    android:background="@color/Gray3"
     tools:context="app.stopwatch.MainActivity">
 
     <LinearLayout
         android:orientation="horizontal"
         android:gravity="center"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.6" >
-
+        android:layout_height="100dp">
         <TextView
             android:id="@+id/textViewTime"
             android:layout_width="match_parent"
@@ -28,9 +26,8 @@
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:layout_weight="1">
+        android:layout_height="60dp"
+        android:gravity="center">
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -39,11 +36,11 @@
             <Button
             android:id="@+id/buttonStart"
             android:text="@string/Start"
-            android:textSize="18sp"
+            android:textSize="17sp"
             android:textColor="#FFFFFF"
             android:onClick="onStartClick"
             android:background="@color/colorGreen"
-            android:layout_width="130dp"
+            android:layout_width="118dp"
             android:layout_height="40dp"
             android:textStyle="bold"/>
         </RadioGroup>
@@ -55,11 +52,11 @@
             <Button
                 android:id="@+id/buttonReset"
                 android:text="@string/Reset"
-                android:textSize="18sp"
+                android:textSize="17sp"
                 android:textColor="#ECEFF1"
                 android:background="#9E9E9E"
                 android:onClick="onResetClick"
-                android:layout_width="130dp"
+                android:layout_width="115dp"
                 android:layout_height="40dp"
                 android:textStyle="bold" />
         </RadioGroup>
@@ -71,40 +68,41 @@
             <Button
                 android:id="@+id/buttonLap"
                 android:text="@string/Lap"
-                android:textSize="18sp"
+                android:textSize="17sp"
                 android:textColor="#FFFFFF"
                 android:background="@color/colorBrown"
                 android:onClick="onLapClick"
-                android:layout_width="130dp"
+                android:layout_width="120dp"
                 android:layout_height="40dp"
                 android:textStyle="bold"/>
         </RadioGroup>
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1.2"
+            android:layout_weight="1.1"
             android:gravity="center">
             <Button
                 android:id="@+id/buttonViewAllSaved"
-                android:layout_width="50dp"
+                android:layout_width="wrap_content"
                 android:layout_height="35dp"
                 android:onClick="onViewSavedButton"
-                android:textSize="14sp"
+                android:textSize="12sp"
                 android:textColor="#ECEFF1"
                 android:background="@color/Gray2"
+                android:textStyle="bold"
                 android:text="@string/ViewSaved"/>
         </RadioGroup>
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1.2"
+            android:layout_weight="1.1"
             android:gravity="center">
             <Button
                 android:id="@+id/buttonSave"
-                android:layout_width="50dp"
+                android:layout_width="80dp"
                 android:layout_height="35dp"
                 android:onClick="onSaveButton"
-                android:textSize="14sp"
+                android:textSize="13sp"
                 android:textColor="#ECEFF1"
                 android:background="@color/Gray2"
                 android:textStyle="bold"
@@ -115,8 +113,8 @@
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="fill_parent"
-        android:background="@color/Gray2"
-        android:layout_height="160sp">
+        android:background="@color/Gray1"
+        android:layout_height="match_parent">
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"

@@ -2,18 +2,63 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
               android:layout_width="match_parent"
-              android:layout_height="match_parent">
+              android:layout_height="match_parent"
+              android:background="@color/Gray3">
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="4"
-        android:gravity="center">
+        android:layout_height="90dp"
+        android:orientation="vertical">
         <TextView
+            android:id="@+id/tvSC"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Saved countings"
-            android:textSize="40sp"
-            android:gravity="center_horizontal"/>
+            android:layout_height="50dp"
+            android:text="@string/SavedCountings"
+            android:textSize="30sp"
+            android:gravity="center"/>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="start|center"
+                android:layout_weight="1.4">
+                <TextView
+                    android:id="@+id/tvIC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:text="@string/IdCounting"
+                    android:textSize="20sp"/>
+            </RadioGroup>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="1">
+                <TextView
+                    android:id="@+id/tvCN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/CountingName"
+                    android:textSize="18sp"/>
+            </RadioGroup>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.25"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tvLIC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/LapsInCounting"
+                    android:textSize="14sp"/>
+            </RadioGroup>
+        </RadioGroup>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,7 +66,6 @@
         android:layout_weight="1">
         <LinearLayout
             android:id="@+id/linearLayoutViewSaved"
-            android:layout_weight="1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
@@ -31,6 +75,7 @@
                 android:layout_height="match_parent">
                 <LinearLayout
                     android:id="@+id/linearLayoutVS"
+                    android:background="@color/Gray2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical">
@@ -38,5 +83,18 @@
             </ScrollView>
         </LinearLayout>
     </LinearLayout>
-
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnDeleteDatabase"
+            android:onClick="onClickDeleteDatabase"
+            android:text="@string/DeleteAllCountings"
+            android:textSize="16sp"
+            android:textColor="#ECEFF1"
+            android:background="@color/Gray2"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"/>
+    </LinearLayout>
 </LinearLayout>

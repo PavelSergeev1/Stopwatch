@@ -1,17 +1,34 @@
 <resources>
-    <string name="app_name">StopwatchApp</string>
+    <string name="app_name">Stopwatch</string>
+
+    <string name="Yes">Yes</string>
+    <string name="Cancel">Cancel</string>
 
     <string name="Start">START</string>
     <string name="Stop">STOP</string>
     <string name="Lap">LAP</string>
+    <string name="lap">Lap</string>
+    <string name="LapTime">Lap time</string>
     <string name="Reset">RESET</string>
     <string name="SaveThis">SAVE THIS</string>
     <string name="ViewSaved">VIEW SAVED</string>
+    <string name="DeleteAllCountings">DELETE ALL COUNTINGS</string>
     <string name="SaveDB">SAVE</string>
+    <string name="SavedCountings">Saved countings</string>
+    <string name="IdCounting">№</string>
+    <string name="LapsInCounting">Laps In Counting</string>
+    <string name="CountingName">Counting Name</string>
     <string name="EnterNameDB">Enter the name of the counting</string>
+    <string name="NumberOfSavedCountings">number of saved countings - "&#32;"</string>
+    <string name="XX">XX</string>
 
-    <string name="St">St</string>
-    <string name="op">op</string>
-    <string name="watch">watch</string>
+    <string name="Counting">Counting "&#32;"</string>
+    <string name="deleted">"&#32;" deleted</string>
+    <string name="SuccessfullySaved">"&#32;" successfully saved</string>
+
+    <string name="DeleteCounting">Delete counting № "&#32;"</string>
+
+    <string name="SaveThisCounting">Save this counting?</string>
+    <string name="DoYouWantToDeleteAllCountings">Do you want to delete all countings?</string>
 
 </resources>

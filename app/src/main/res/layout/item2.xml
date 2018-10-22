@@ -4,7 +4,7 @@
     android:background="@drawable/border"
     android:layout_width="match_parent"
     android:layout_height="50dp"
-    android:layout_marginTop="10dp">
+    android:layout_margin="3dp">
     <TextView
         android:id="@+id/tvLapNumber"
         android:layout_width="wrap_content"
@@ -12,8 +12,7 @@
         android:layout_marginStart="20dp"
         android:text="Lap number"
         android:textSize="25sp"
-        android:layout_gravity="center|left"
-        android:layout_marginLeft="5dp"/>
+        android:layout_gravity="center|start"/>
     <TextView
         android:id="@+id/tvLapTime"
         android:layout_width="wrap_content"

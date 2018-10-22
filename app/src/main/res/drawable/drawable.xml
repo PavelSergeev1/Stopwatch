@@ -2,12 +2,6 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:drawable="@color/colorGreen"/>
-
-    <item>
-        <bitmap
-            android:gravity="center"
-            android:src="@mipmap/icon"/>
-    </item>
+        android:drawable="@color/Gray2"/>
 
 </layer-list>
