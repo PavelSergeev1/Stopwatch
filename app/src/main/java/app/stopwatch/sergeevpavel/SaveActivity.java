@@ -34,8 +34,6 @@ public class SaveActivity extends AppCompatActivity implements View.OnClickListe
     private static final String CREATE_SECOND_TABLE = "CREATE TABLE " + SECOND_TABLE +
             "(" + " id integer primary key autoincrement," + "lap text" + ")";
 
-    int itemWasClicked = 0;
-
     // массив с сохранённми результатами кругов
     String[] SavedLapsSDB = new String[1010];
     int circleCountSDB;
